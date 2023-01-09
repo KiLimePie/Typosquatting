@@ -1,4 +1,4 @@
-with open("domaintest.txt") as f:
+with open("new_domains.txt") as f:
     d=f.readlines()
     d=[x.strip().split(".") for x in d]
 
